@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		D88678C02BC431C800056A49 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88678BF2BC431C800056A49 /* AppDelegate.swift */; };
 		D88678C22BC431C800056A49 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88678C12BC431C800056A49 /* SceneDelegate.swift */; };
-		D88678C42BC431C800056A49 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88678C32BC431C800056A49 /* ViewController.swift */; };
 		D88678C72BC431C800056A49 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88678C52BC431C800056A49 /* Main.storyboard */; };
 		D88678C92BC431CB00056A49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D88678C82BC431CB00056A49 /* Assets.xcassets */; };
 		D88678CC2BC431CB00056A49 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D88678CA2BC431CB00056A49 /* LaunchScreen.storyboard */; };
+		D88678D42BC4321F00056A49 /* AlertListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88678D32BC4321F00056A49 /* AlertListViewController.swift */; };
+		D88678D72BC4389300056A49 /* AlertListCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88678D52BC4389300056A49 /* AlertListCell.swift */; };
+		D88678D82BC4389300056A49 /* AlertListCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D88678D62BC4389300056A49 /* AlertListCell.xib */; };
+		D88678DA2BC4441400056A49 /* Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = D88678D92BC4441400056A49 /* Alert.swift */; };
+		D8BD4A9B2BC58109003DEC02 /* AddAlertViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D8BD4A9A2BC58109003DEC02 /* AddAlertViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D88678BC2BC431C800056A49 /* FaInt04Drink.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FaInt04Drink.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D88678BF2BC431C800056A49 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		D88678C12BC431C800056A49 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		D88678C32BC431C800056A49 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		D88678C62BC431C800056A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D88678C82BC431CB00056A49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D88678CB2BC431CB00056A49 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D88678CD2BC431CB00056A49 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D88678D32BC4321F00056A49 /* AlertListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListViewController.swift; sourceTree = "<group>"; };
+		D88678D52BC4389300056A49 /* AlertListCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertListCell.swift; sourceTree = "<group>"; };
+		D88678D62BC4389300056A49 /* AlertListCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = AlertListCell.xib; sourceTree = "<group>"; };
+		D88678D92BC4441400056A49 /* Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Alert.swift; sourceTree = "<group>"; };
+		D8BD4A9A2BC58109003DEC02 /* AddAlertViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddAlertViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,11 +66,15 @@
 			children = (
 				D88678BF2BC431C800056A49 /* AppDelegate.swift */,
 				D88678C12BC431C800056A49 /* SceneDelegate.swift */,
-				D88678C32BC431C800056A49 /* ViewController.swift */,
 				D88678C52BC431C800056A49 /* Main.storyboard */,
 				D88678C82BC431CB00056A49 /* Assets.xcassets */,
 				D88678CA2BC431CB00056A49 /* LaunchScreen.storyboard */,
 				D88678CD2BC431CB00056A49 /* Info.plist */,
+				D88678D32BC4321F00056A49 /* AlertListViewController.swift */,
+				D8BD4A9A2BC58109003DEC02 /* AddAlertViewController.swift */,
+				D88678D92BC4441400056A49 /* Alert.swift */,
+				D88678D52BC4389300056A49 /* AlertListCell.swift */,
+				D88678D62BC4389300056A49 /* AlertListCell.xib */,
 			);
 			path = FaInt04Drink;
 			sourceTree = "<group>";
@@ -127,6 +139,7 @@
 			files = (
 				D88678CC2BC431CB00056A49 /* LaunchScreen.storyboard in Resources */,
 				D88678C92BC431CB00056A49 /* Assets.xcassets in Resources */,
+				D88678D82BC4389300056A49 /* AlertListCell.xib in Resources */,
 				D88678C72BC431C800056A49 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -138,9 +151,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D88678C42BC431C800056A49 /* ViewController.swift in Sources */,
 				D88678C02BC431C800056A49 /* AppDelegate.swift in Sources */,
 				D88678C22BC431C800056A49 /* SceneDelegate.swift in Sources */,
+				D88678D72BC4389300056A49 /* AlertListCell.swift in Sources */,
+				D88678DA2BC4441400056A49 /* Alert.swift in Sources */,
+				D88678D42BC4321F00056A49 /* AlertListViewController.swift in Sources */,
+				D8BD4A9B2BC58109003DEC02 /* AddAlertViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
