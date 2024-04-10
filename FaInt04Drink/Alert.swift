@@ -21,7 +21,7 @@ struct Alert: Codable {
     var meridiem: String {
         let meridiemFormatter = DateFormatter()
         meridiemFormatter.dateFormat = "a"
-        meridiemFormatter.locale = Locale(identifier: "ko")
+        meridiemFormatter.locale = Locale(identifier: "en")
         return meridiemFormatter.string(from: date)
     }
 }
