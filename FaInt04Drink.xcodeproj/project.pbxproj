@@ -50,7 +50,6 @@
 		D88678B32BC431C800056A49 = {
 			isa = PBXGroup;
 			children = (
-				D89F89912BC6D7E900952BF8 /* UNNotificationCenter.swift */,
 				D88678BE2BC431C800056A49 /* FaInt04Drink */,
 				D88678BD2BC431C800056A49 /* Products */,
 			);
@@ -77,6 +76,7 @@
 				D8BD4A9A2BC58109003DEC02 /* AddAlertViewController.swift */,
 				D88678D92BC4441400056A49 /* Alert.swift */,
 				D88678D52BC4389300056A49 /* AlertListCell.swift */,
+				D89F89912BC6D7E900952BF8 /* UNNotificationCenter.swift */,
 				D88678D62BC4389300056A49 /* AlertListCell.xib */,
 			);
 			path = FaInt04Drink;
